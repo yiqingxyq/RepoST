@@ -1,0 +1,4 @@
+r2e_bucket_dir: results
+repos_dir: results/repos
+# repos_dir: results/repos_test
+cache_dir: cache_dir

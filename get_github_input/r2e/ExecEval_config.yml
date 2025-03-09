@@ -1,0 +1,3 @@
+r2e_bucket_dir: results
+repos_dir: results/repos/ExecEval
+cache_dir: cache_dir

@@ -1,0 +1,6 @@
+openai==1.57.2
+litellm
+transformers==4.45.2
+vllm==0.4.2
+datasets==2.19.1
+tqdm
