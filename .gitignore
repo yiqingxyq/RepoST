@@ -6,21 +6,6 @@ __pycache__/
 
 # data and model ckpts 
 data/*/repos 
-data/ExecCSN_full
 data/ExecTrain
-# data/*/*.json
-# third_party/
-node_modules/
-# resource/
-
-# ExecCSN_dataset/
-
-retrieval/
-
-selection/.cache
-
-# human study
-LLM_verification/*.json
-*/*.ipynb
 
 package-lock.json
