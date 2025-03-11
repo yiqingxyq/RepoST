@@ -2,10 +2,10 @@
 
 <p align="left">
   <a href="https://opensource.org/license/mit"><img src="https://img.shields.io/badge/license-MIT-blue"></a>
-  <a href="https://arxiv.org/abs/2404.00566"><img src="https://img.shields.io/badge/arXiv-2404.00566-b31b1b.svg"></a>
+  <a href="https://arxiv.org/abs/2503.07358"><img src="https://img.shields.io/badge/arXiv-2503.07358-b31b1b.svg"></a>
 </p>
 
-Code for "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing" ([Arxiv](https://arxiv.org/abs/2404.00566), [Website](https://repost-code-gen.github.io/))
+Code for "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing" ([Arxiv](https://arxiv.org/abs/2503.07358), [Website](https://repost-code-gen.github.io/))
 
 
 <img width="1015" alt="image" src="https://github.com/user-attachments/assets/90b77667-a44c-4f9c-ad0e-c9f47cec4333" />
@@ -18,8 +18,10 @@ If you find our paper or code useful, please cite the paper:
       title={RepoST: Scalable Repository-LevelCoding Environment Construction with Sandbox Testing}, 
       author={Yiqing Xie and Alex Xie and Divyanshu Sheth and Pengfei Liu and Daniel Fried and Carolyn Rose},
       year={2025},
+      eprint={2503.07358},
       archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.07358}, 
 }
 ```
 
