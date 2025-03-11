@@ -5,7 +5,7 @@
   <a href="https://arxiv.org/abs/2404.00566"><img src="https://img.shields.io/badge/arXiv-2404.00566-b31b1b.svg"></a>
 </p>
 
-Code for "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing" ([Arxiv](https://arxiv.org/abs/2404.00566))
+Code for "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing" ([Arxiv](https://arxiv.org/abs/2404.00566), [Website](https://repost-code-gen.github.io/))
 
 
 <img width="1015" alt="image" src="https://github.com/user-attachments/assets/90b77667-a44c-4f9c-ad0e-c9f47cec4333" />
@@ -19,7 +19,7 @@ If you find our paper or code useful, please cite the paper:
       author={Yiqing Xie and Alex Xie and Divyanshu Sheth and Pengfei Liu and Daniel Fried and Carolyn Rose},
       year={2025},
       archivePrefix={arXiv},
-      primaryClass={cs.SE}
+      primaryClass={cs.CL}
 }
 ```
 
