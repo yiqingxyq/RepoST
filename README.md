@@ -18,7 +18,6 @@ If you find our paper or code useful, please cite the paper:
       title={RepoST: Scalable Repository-LevelCoding Environment Construction with Sandbox Testing}, 
       author={Yiqing Xie and Alex Xie and Divyanshu Sheth and Pengfei Liu and Daniel Fried and Carolyn Rose},
       year={2025},
-      eprint={2404.00566},
       archivePrefix={arXiv},
       primaryClass={cs.SE}
 }
