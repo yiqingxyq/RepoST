@@ -6,6 +6,6 @@ __pycache__/
 
 # data and model ckpts 
 data/*/repos 
-data/ExecTrain
+# data/ExecTrain
 
 package-lock.json
