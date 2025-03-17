@@ -149,7 +149,9 @@ The execution results for each evaluation example will be stored in `data/ExecEv
 <br><br><br>
 <a id="repost-train-sft"></a>
 ## Training with RepoST-Train (Vanilla SFT)
-We provide the code for processing training data under `get_training_data` and provide the code for model training under `LLaMA-Factory`.
+We provide the vanilla sft data we used in our paper in `LLaMA-Factory/data/ExecTrain_exec_sft_data.json` and provide the code for model training under `LLaMA-Factory`.
+
+If you want to process the data on your own, we provide the code for processing training data under `get_training_data`, which processes `data/ExecTrain/checked_test_set_final.json` into the training data format.
 
 ### Setup and Installation for model training
 Create a new environment:
@@ -202,8 +204,9 @@ bash scripts/sft_ExecTrain_exec_qwencoder.sh
 <br><br><br>
 <a id="repost-train-rs"></a>
 ## Training with RepoST-Train (Rejection Sampling)
-Similar to vanilla SFT, we provide the code for processing training data under `get_training_data` and provide the code for model training under `LLaMA-Factory`.
-We further provide the code for generating candidate solutions under `generation`.
+Similar to vanilla SFT, we provide the rejection sampling (distill) data we used in our paper in `LLaMA-Factory/data/ExecTrain_rejection_sampling_claudegpt_debug_replay_data.json` and provide the code for model training under `LLaMA-Factory`. Please directly refer to the [Model Training Instructions](#model-training-rs) if you want to train with the provided data.
+
+If you want to run rejection sampling on your own, we provide the code for generating candidate solutions under `generation/`, the code for execution in `RepoST/execution.py`, and the code to process training data under `get_training_data/`.
 
 ### Setup and Installation for both code generation and model training
 We recommend using different environments for code generation and for model training. Specifically:
@@ -298,6 +301,7 @@ bash scripts/get_rej_sampling_debug_data.sh
 
 The processed training data files will be saved to `LLaMA-Factory/data/`.
 
+<a id="model-training-rs"></a>
 ### Run Model Training
 Before training, you first need to add the data information in `LLaMA-Factory/data/dataset_info.json`. For example, adding an entry:
 ```
