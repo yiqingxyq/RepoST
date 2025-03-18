@@ -234,7 +234,7 @@ source setup_train.sh
 ```
 
 ### Load the RepoST-Train Docker Image for Execution
-We provide the [RepoST-Train docker image]([https://drive.google.com/file/d/1whs__889_1zlW6D24WnlEL4PhoZzNRym/view?usp=sharing](https://drive.google.com/file/d/1ya5ZMyW3irOaSnNB4qja9N9uOCzytrQB/view?usp=sharing)).
+We provide the [RepoST-Train docker image](https://drive.google.com/file/d/1ya5ZMyW3irOaSnNB4qja9N9uOCzytrQB/view?usp=sharing).
 
 You can use the image by 
 ```
